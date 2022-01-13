@@ -1,0 +1,60 @@
+---
+title: "COVID Vaccine Coverage and Distribution across Sindh"
+output: html_document
+---
+**Background** 
+
+Vaccine hesitancy hinders the vaccination programs, as is seen in the case for the COVID-19 vaccination program. This results in low uptake of vaccines and thus government efforts to reach their objectives are hampered. Such is the case with Sindh Province of Pakistan, where despite government’s much effort, official statistics aren’t satisfactory. Vaccination figures in almost all cities of the Province are lower than targets. However, there is a positive trend observed in distribution of various vaccine brands. Number show that most of received vaccine supply was utilized. Having this information, the current project is aimed at visualizing coverage and distribution trends of the Province through infographics.  
+
+
+**App Functionality**
+
+The aim of this app is to shows an infographic summary of vaccine utilization in the province of Sindh, Pakistan.  It is intended to report total and daily coverage for the first shot received within the past five months. The first three tabs show coverage and the rest of the two summarize distribution.
+
+
+**Coverage**
+
+The first tab provides a broad overview of vaccine utility per city, It allows the user the hover over the cities on the map to see the population covered. The second tab expands on the first tab and allows the user to choose a city from the drop-down menu and reacts by displaying bar charts for the following coverage measures:
+
+*   Daily Coverage Percentage
+
+*   Vaccine Administered Total Dose 24 Hours
+
+*   Total Coverage Percentage
+
+*   Vaccine Administered Total Dose
+
+Finally the third tab shows two sets of plots that compare the following coverage measures across all districts and divisions:
+
+*   Above 18 Population versus Total First Dose
+
+*   Per Day Target versus First Dose 24 Hours
+
+
+**Distribution**
+
+The fourth tab provides shows the actual utilization of each vaccine by brand name in Pakistan, It allows the user to choose a vaccine from the drop-down menu and reacts by displaying the utilization of the chosen vaccine. The fifth and the final tab app shows three sets of plots that compare the following distribution parameters across all available vaccines:
+
+*   Vaccines Recieved Versus Total Dose Utilization
+
+*   Vaccines Recieved Versus Wastage
+
+*   Vaccines Recieved Versus Balance
+
+
+I hope you find it interesting and/or useful.  Any comments or questions are welcome at hassanshah18@gmail.com
+
+
+The source code for this Shiny app is available [on github](https://github.com/HasShah).
+
+
+**About the Author**
+
+Hasan Shah is a Civil Engineer. 
+
+
+**Sources**
+
+Coverage and Distribution Information from [Health Department of Sindh](https://www.sindhhealth.gov.pk).
+
+Built with <img src="https://www.rstudio.com/wp-content/uploads/2014/04/shiny.png" alt="drawing" width="30"/> by <img src="https://www.rstudio.com/wp-content/uploads/2014/07/RStudio-Logo-Blue-Gray.png" alt="drawing" width="80"/>
