@@ -1,1 +1,0 @@
-# COVID-Vaccine-Utilization-in-Districts-of-Sindh
